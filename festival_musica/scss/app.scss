@@ -1,0 +1,26 @@
+@use "base/variables" as v; //incluyo el archivo de variables, si voy  utilizar el contenido del archivo en una variable, conviene usar use, sino uso forward 
+@forward "base/normalize.scss"; //incluyo el archivo normalize.scss
+
+
+
+body {
+    background-color: red;
+    // font-family: "Montserrat", sans-serif;
+    font-family: v.$main-font; // para acceder a esa fuente dentro del archivo variables uso esta sintaxis
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 10rem;
+}
+
+div {
+    border: 2px solid black;
+}
+
+h1, p, h2, a {
+    font-family: $main-font;
+}
+

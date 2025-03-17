@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 10rem;
+}
+
+div {
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=app.css.map */
